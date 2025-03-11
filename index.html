@@ -1,8 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <base href="https://www.w3schools.com/" target="_blank">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations Sarah + Duncan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #d81b60;
+            margin: 40px 0;
+            font-size: 2.5em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            margin-top: 40px;
+        }
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+        }
+    </style>
 </head>
-
 <body>
-<img src="images/stickman.gif" width="24" height="39" alt="Stickman">
-<a href="tags/tag_base.asp">HTML base Tag</a>
-</body>s
+    <h1>CONGRATULATIONS SARAH + DUNCAN!!!</h1>
+    
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="1.jpg" alt="Sarah and Duncan photo 1">
+        </div>
+        <div class="gallery-item">
+            <img src="2.jpg" alt="Sarah and Duncan photo 2">
+        </div>
+        <div class="gallery-item">
+            <img src="3.jpg" alt="Sarah and Duncan photo 3">
+        </div>
+        <div class="gallery-item">
+            <img src="4.jpg" alt="Sarah and Duncan photo 4">
+        </div>
+        <div class="gallery-item">
+            <img src="5.jpg" alt="Sarah and Duncan photo 5">
+        </div>
+        <div class="gallery-item">
+            <img src="6.jpg" alt="Sarah and Duncan photo 6">
+        </div>
+        <div class="gallery-item">
+            <img src="7.jpg" alt="Sarah and Duncan photo 7">
+        </div>
+        <div class="gallery-item">
+            <img src="8.jpg" alt="Sarah and Duncan photo 8">
+        </div>
+        <div class="gallery-item">
+            <img src="9.jpg" alt="Sarah and Duncan photo 9">
+        </div>
+        <div class="gallery-item">
+            <img src="10.jpg" alt="Sarah and Duncan photo 10">
+        </div>
+        <div class="gallery-item">
+            <img src="11.jpg" alt="Sarah and Duncan photo 11">
+        </div>
+        <div class="gallery-item">
+            <img src="12.jpg" alt="Sarah and Duncan photo 12">
+        </div>
+        <div class="gallery-item">
+            <img src="13.jpg" alt="Sarah and Duncan photo 13">
+        </div>
+    </div>
+</body>
+</html>
